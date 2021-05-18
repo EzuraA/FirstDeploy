@@ -1,10 +1,10 @@
 version: 0.0  # 0.0固定
 os: linux     # デプロイ先サーバーのOS
 files:        # アプリケーションの配置場所
-  - source: /
+  - source: /ec_site/
     destination: /home/ec2-user/shop
 permissions:  # 配置ディレクトリのパーミッション
-  - object: /home/ec2-user/shop
+  - object: /home/ec2-user/
     owner: ec2-user
     group: nginx
     pattern: "**"
