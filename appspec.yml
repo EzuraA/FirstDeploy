@@ -1,7 +1,7 @@
 version: 0.0  # 0.0固定
 os: linux     # デプロイ先サーバーのOS
 files:        # アプリケーションの配置場所
-  - source: /ec_site/shop/
+  - source: /
     destination: /home/ec2-user/php
 permissions:  #配置ディレクトリのパーミッション
   - object: /home/ec2-user/php
